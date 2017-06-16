@@ -22,6 +22,7 @@ body{
 .navbar-inverse .navbar-brand{
 background: green;
 color:black;
+font-family: 'Mogra', cursive;
 }
 
 .navbar-brand a:hover{
@@ -34,21 +35,27 @@ a:hover{background-color: blue;}
 
 .navbar-inverse{
 background:green;
+font-family: 'Mogra', cursive;
 }
 
 .navbar-inverse .navbar-nav li  a{
 color:black;
+font-family: 'Mogra', cursive;
 }
 
 .navbar-inverse .navbar-nav li  a:hover{
 color:blue; !important
 }
 #boll{
-	width: 450px;
+	width: 330px;
 }
 
 #Galante{
 	width: 450px;
+}
+
+a{
+	color: purple;
 }
 
 
@@ -63,6 +70,7 @@ color:blue; !important
 
 body{
 	text-align: center;
+	font-family: 'Mogra', cursive;
 }
 
 #eld{
@@ -74,7 +82,15 @@ body{
 }
 
 #Hundbilden{
-	width: 300px;
+	width: 400px;
+	float:left;
+}
+
+#elefantbilden{
+	width: 450px;
+	float:right;
+}
+iframe{
 	float:left;
 }
 
